@@ -8,7 +8,7 @@ class ProblemB {
             val inputData: List<Int> = readListInt()
             val n = inputData[0]
             val k = inputData[1]
-            val charCode = 'a'.toByte().toInt()
+            val charCode = 'a'.code //toByte().toInt()
             var charCounter = 0
             var str = ""
 
